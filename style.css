@@ -5,6 +5,7 @@
 }
 body{
     background-color: rgb(255, 255, 255);
+    font-family: 'Roboto Condensed', sans-serif;
 }
 /* header and nav styles */
 header{
@@ -240,6 +241,9 @@ main{
 
 
 /* contact section styles */
+.contact-title{
+    margin-bottom: 20px;
+}
 .contact{
     background-color: #fff8f3;
     min-height: 400px;
@@ -271,6 +275,7 @@ main{
 }
 textarea{
     margin-top: 20px;
+    padding: 0 10px;
 }
 .contact-description{
     margin-top: 10px;
