@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Md sayem</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <header>
@@ -25,8 +26,12 @@
             Shot what able cold new see hold.Friendly as an betrayed formerly
             he. Morning because as to society behaved moments
           </p>
-          <button class="btn-primary">Download cv</button>
-          <button class="btn-outline">contact</button>
+        <div class="banner-buttons">
+          <button class="btn-primary"><i class="fa-regular fa-circle-down"></i> Download cv</button>
+          <button class="btn-outline">
+            <i class="fa-solid fa-phone"></i>
+            contact</button>
+        </div>
         </div>
         <div class="developer-image">
           <img src="./Images/hardy.png" alt="" />
@@ -34,7 +39,7 @@
       </div>
     </header>
     <main>
-<!-- About section start -->
+      <!-- About section start -->
       <section class="about">
         <div class="about-info">
           <h2 class="section-title">About Me</h2>
@@ -45,54 +50,171 @@
             resulfs while working with me. Delivering work within time and
             budget which meets clients requirements in our mata.
           </p>
-          <div class="contact-info">              
+          <div class="contact-info">
             <div class="contact-item">
-                <p class="info-name">Name:</p>
-                <p class="info-value">Mary Hardy</p>
+              <p class="info-name">Name:</p>
+              <p class="info-value">Mary Hardy</p>
             </div>
             <div class="contact-item">
-                <p class="info-name">Email:</p>
-                <p class="info-value">Info@gamil.com</p>
-            </div> <div class="contact-item">
-                <p class="info-name">Date of Birth:</p>
-                <p class="info-value">11 November 1987</p>
-            </div> <div class="contact-item">
-                <p class="info-name">From:</p>
-                <p class="info-value">Los Angelas,USA</p>
+              <p class="info-name">Email:</p>
+              <p class="info-value">Info@gamil.com</p>
+            </div>
+            <div class="contact-item">
+              <p class="info-name">Date of Birth:</p>
+              <p class="info-value">11 November 1987</p>
+            </div>
+            <div class="contact-item">
+              <p class="info-name">From:</p>
+              <p class="info-value">Los Angelas,USA</p>
             </div>
           </div>
         </div>
       </section>
       <!-- About section Ends -->
+
       <!-- What i do section starts -->
       <section class="what-i-do">
         <h3 class="section-title">What I do</h3>
-         <div class="skill-container">
-            <div class="skill">
-                <img src="./Images/icons/js.png" alt="js picture">
-                <p class="skill-title">Vanila Javascript</p>
-                <p class="skill-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores natus enim mollitia quas dolore deleniti.</p>
-            </div>
-            <div class="skill">
-                <img src="./Images/icons/react.png" alt="reactjs icon">
-                <p class="skill-title">React js</p>
-                <p class="skill-description">Quo labore officia iusto, eaque dolore aliquid aperiam rerum, veniam nulla dolorem itaque, reprehenderit atque?</p>
-            </div>
-            <div class="skill">
-                <img src="./Images/icons/nodejs.png" alt="">
-                <p class="skill-title">Node js</p>
-                <p class="skill-description">Doloremque quisquam qui sunt tempore quia enim ratione sequi voluptatibus, atque, doloribus eligendi odio reiciendis.</p>
-            </div>
-            <div class="skill">
-                <img src="./Images/icons/mongo.png" alt="">
-                <p class="skill-title">Mongo DB</p>
-                <p class="skill-description">Dignissimos explicabo saepe possimus at, dolorem ex excepturi animi corporis sed. Veritatis esse explicabo impedit!</p>
-            </div>
-         </div>
+        <div class="skill-container">
+          <div class="skill">
+            <img src="./Images/icons/js.png" alt="js picture" />
+            <p class="skill-title">Vanila Javascript</p>
+            <p class="skill-description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores
+              natus enim mollitia quas dolore deleniti.
+            </p>
+          </div>
+          <div class="skill">
+            <img src="./Images/icons/react.png" alt="reactjs icon" />
+            <p class="skill-title">React js</p>
+            <p class="skill-description">
+              Quo labore officia iusto, eaque dolore aliquid aperiam rerum,
+              veniam nulla dolorem itaque, reprehenderit atque?
+            </p>
+          </div>
+          <div class="skill">
+            <img src="./Images/icons/nodejs.png" alt="" />
+            <p class="skill-title">Node js</p>
+            <p class="skill-description">
+              Doloremque quisquam qui sunt tempore quia enim ratione sequi
+              voluptatibus, atque, doloribus eligendi odio reiciendis.
+            </p>
+          </div>
+          <div class="skill">
+            <img src="./Images/icons/mongo.png" alt="" />
+            <p class="skill-title">Mongo DB</p>
+            <p class="skill-description">
+              Dignissimos explicabo saepe possimus at, dolorem ex excepturi
+              animi corporis sed. Veritatis esse explicabo impedit!
+            </p>
+          </div>
+        </div>
       </section>
       <!-- What i do section Ends -->
+      <!-- Resume section starts-->
+      <section class="resume">
+        <h3 class="section-title">A summary of My Resume</h3>
+        <div class="my-education-section">
+          <div class="education-info">
+            <div class="education-items">
+              <h2 class="title">My Education</h2>
+              <h3 class="course-name">Master in Computer Engineering</h3>
+              <p class="place">Harvard University / 2015 2017</p>
+              <p class="education-description">
+                List skill/technologies here. You can change the icon above to
+                any of the 1500+ FontAwesome 5 free icons available. Aenean
+                commodo ligula eget dolor.
+              </p>
+            </div>
+            <hr />
+            <div class="education-items">
+              <h3 class="course-name">Master in Computer Engineering</h3>
+              <p class="place">Harvard University / 2015 2017</p>
+              <p class="education-description">
+                List skill/technologies here. You can change the icon above to
+                any of the 1500+ FontAwesome 5 free icons available. Aenean
+                commodo ligula eget dolor.
+              </p>
+            </div>
+            <hr />
+            <div class="education-items">
+              <h3 class="course-name">Master in Computer Engineering</h3>
+              <p class="place">Harvard University / 2015 2017</p>
+              <p class="education-description">
+                List skill/technologies here. You can change the icon above to
+                any of the 1500+ FontAwesome 5 free icons available. Aenean
+                commodo ligula eget dolor.
+              </p>
+            </div>
+          </div>
+
+          <div class="my-experience">
+            <div class="education-items">
+              <h2 class="title">My Experience</h2>
+              <h3 class="course-name">Master in Computer Engineering</h3>
+              <p class="place">Harvard University / 2015 2017</p>
+              <p class="education-description">
+                List skill/technologies here. You can change the icon above to
+                any of the 1500+ FontAwesome 5 free icons available. Aenean
+                commodo ligula eget dolor.
+              </p>
+            </div>
+            <hr />
+            <div class="education-items">
+              <h3 class="course-name">Master in Computer Engineering</h3>
+              <p class="place">Harvard University / 2015 2017</p>
+              <p class="education-description">
+                List skill/technologies here. You can change the icon above to
+                any of the 1500+ FontAwesome 5 free icons available. Aenean
+                commodo ligula eget dolor.
+              </p>
+            </div>
+            <hr />
+            <div class="education-items">
+              <h3 class="course-name">Master in Computer Engineering</h3>
+              <p class="place">Harvard University / 2015 2017</p>
+              <p class="education-description">
+                List skill/technologies here. You can change the icon above to
+                any of the 1500+ FontAwesome 5 free icons available. Aenean
+                commodo ligula eget dolor.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="center-btn">
+          <button class="btn-primary"> <i class="fa-regular fa-circle-down"></i> Download Cv</button>
+        </div>
+      </section>
+     
     </main>
 
-    <footer></footer>
+    <footer>
+       <!--Resume section ends -->
+       <section class="contact">
+        <div class="contact-container">
+          <div class="contact-details">
+            <h2 class="contact-title">Lets Connect</h2>
+            <small class="contact-description">
+              Please fill out the form on this section 
+              to contact with me or
+              call between 9:00 A.M and 
+              8.00 P.M ET, Monday through Friday.
+            </small>
+             <div class="icons">
+              <i class="fa-brands fa-facebook social-icon"></i>
+              <i class="fa-brands fa-twitter social-icon"></i>
+              <i class="fa-brands fa-instagram social-icon"></i>
+             </div>
+          </div>
+          <div class="contact-form">
+            <h2>Let’s Message me</h2>
+            <input type="text" placeholder="Your Name" name="" id="">
+            <input type="email" placeholder="Your Email" name="" id="">
+            <textarea name="" id=""  cols="30" rows="10">Massage..</textarea>
+            <input class="btn-primary" type="submit" value="Submit"></input>
+          </div>  
+        </div>
+      </section>
+    </footer>
   </body>
 </html>
