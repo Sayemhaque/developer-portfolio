@@ -297,3 +297,7 @@ textarea{
 .place{
     color: rgb(99, 98, 98);
 }
+
+.copyring-text{
+    text-align: center;
+}
